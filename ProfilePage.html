@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="ProfilePage.css" />
+</head>
+
+<body>
+    <div class="header__wrapper">
+        <header>
+            <img src="headpfp.jpg" class="imghead">
+            <button onclick="logout()">Logout</button>
+        </header>
+        <div class="cols__container">
+            <div class="left__col">
+                <div class="img__container">
+                    <img src="girl.jpg" alt="Anna Smith" />
+                    <span></span>
+                </div>
+                <h2 id="name">Anna Smith</h2>
+                <p id="email">anna@gmail.com</p>
+
+                <ul class="about">
+                    <li><span>4</span>Recipes</li>
+                </ul>
+
+                <div class="content">
+                    <p>
+                        I Love Making New Recipes. Follow Me to Try My Latest recipes and to check out Any upcoming updates about them
+                    </p>
+                    <hr>
+                    <h2>Connect With Me On Other Platforms</h2>
+                    <ul>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <i class="fab fa-pinterest"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-dribbble"></i>
+                    </ul>
+                </div>
+            </div>
+            <div class="right__col">
+                <nav>
+                    <ul>
+                        <li><a href="Landingpage.html">Home</a></li>
+                        <li><a href="RecipeForm.html">Create</a></li>
+                        <li><a href="RecipeDisplay.html">Recipes</a></li>
+                        <li><a href="">about</a></li>
+                    </ul>
+                </nav>
+                <hr>
+                <div class="recipes">
+                <h1 id="reccc">Your Recipes</h1>
+                <ol>
+                <li><h3 id="rn"></h3></li>
+                <li><p id="ing"></p></li>
+                <li><p id="ins"></p></li>
+                <li><p id="rct"></p></li>
+                </ol>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <script src="ProfilePage.js"></script>
+</body>
+
+</html>
